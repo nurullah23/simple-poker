@@ -1,0 +1,14 @@
+.chips-container {
+    position: fixed;
+    display: block;
+    height: 100px;
+    bottom: 50px;
+    
+    .chip {
+        display: inline;
+        
+        & + .chip {
+            margin-left: 20px;
+        }
+    }
+}

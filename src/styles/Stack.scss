@@ -1,0 +1,15 @@
+.chip-stack {
+    display: block;
+    height: 100px;
+    width: 100%;
+    
+    .chips .chip {
+        display: inline;
+    }
+
+    .bet-amount {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 50px;
+    }
+}

@@ -1,0 +1,23 @@
+.action-buttons {
+    padding-top: 100px;
+    display: block;
+
+    button {
+        height: 50px;
+        background-color: rgba(58,131,201,.7);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0 20px;
+
+        & + button {
+            margin-left: 10px;
+        }
+    }
+}
